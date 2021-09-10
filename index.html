@@ -1,15 +1,539 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Rooster Grin Front End Dev Test</title>
-  </head>
-  <body>
-
-    <div>
-      <h1>Hello World</h1>
-    </div>
-
-    <script type="text/javascript" src="bundle.js"></script>
-  </body>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Rooster Grin Front End Dev Test</title>
+    </head>
+    <body>
+        <div class="container">
+            <!-- logo -->
+            <div
+                class="
+                    row
+                    container
+                    qq-logo-row
+                    pt-3
+                    justify-content-center justify-content-lg-start
+                "
+            >
+                <div class="d-none d-lg-inline col-1"></div>
+                <img class="col-lg-3" src="./assets/logo-white.svg" />
+            </div>
+            <!-- hero -->
+            <div class="row qq-ht-1pt5">
+                <div
+                    class="
+                        d-flex
+                        flex-column
+                        justify-content-center
+                        align-items-center
+                        text-white
+                        qq-bg-cover
+                    "
+                    style="background-image: url('./assets/hero.jpg')"
+                >
+                    <div
+                        class="display-4 fw-bold text-uppercase qq-fade-in"
+                        style="
+                            color: rgba(0, 0, 0, 0);
+                            -webkit-text-stroke: 0.1rem white;
+                        "
+                    >
+                        Welcome to
+                    </div>
+                    <div class="display-4 fw-bold text-capitalize qq-fade-in">
+                        Rooster Grin
+                    </div>
+                    <button
+                        type="button"
+                        class="
+                            btn btn-lg
+                            mt-3
+                            text-uppercase text-white
+                            qq-fade-in
+                        "
+                        style="background-color: #ac5fd1"
+                    >
+                        button button
+                    </button>
+                </div>
+            </div>
+            <!-- mountain climbers -->
+            <div class="row" style="position: relative">
+                <div class="d-none d-lg-inline col-2"></div>
+                <div
+                    class="
+                        col-lg-3
+                        d-flex
+                        flex-column
+                        justify-content-center
+                        align-items-start
+                        qq-ht-1 qq-text-xs-white
+                    "
+                    style="z-index: 2"
+                >
+                    <h1 class="text-uppercase qq-text-lg-primary">
+                        Lorem Ipsum
+                    </h1>
+                    <p class="qq-text-lg-black">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.
+                    </p>
+                    <a
+                        class="
+                            btn
+                            ms-0
+                            ps-0
+                            border-0
+                            qq-text-xs-white qq-text-lg-primary
+                            fw-bold
+                        "
+                        href="#"
+                        >> Lorem Ipsum</a
+                    >
+                </div>
+                <div
+                    class="d-lg-none qq-slip-in"
+                    style="background-color: rgba(0, 0, 0, 0.15); z-index: 1"
+                ></div>
+                <div class="d-none d-lg-inline col-1"></div>
+                <div
+                    class="col-lg-6 qq-bg-cover qq-slip-in qq-ht-1"
+                    style="background-image: url('./assets/img-1.jpg')"
+                ></div>
+            </div>
+            <!-- mother and child -->
+            <div
+                class="row qq-bg-cover qq-ht-1"
+                style="
+                    background-image: url('./assets/banner-1.jpg');
+                    position: relative;
+                "
+            >
+                <div
+                    class="d-lg-none qq-slip-in"
+                    style="background-color: rgba(0, 0, 0, 0.15)"
+                ></div>
+                <div class="d-none d-lg-inline col-2"></div>
+                <div
+                    class="
+                        col-lg-3
+                        d-flex
+                        flex-column
+                        justify-content-center
+                        align-items-center align-items-lg-start
+                    "
+                    style="z-index: 1"
+                >
+                    <h1
+                        class="
+                            text-uppercase
+                            qq-text-xs-white qq-text-lg-primary
+                        "
+                    >
+                        Lorem Ipsum
+                    </h1>
+                    <button
+                        type="button"
+                        class="btn btn-secondary text-uppercase text-white"
+                    >
+                        button button
+                    </button>
+                </div>
+            </div>
+            <!-- icons -->
+            <div class="row">
+                <div class="d-none d-lg-inline col-2"></div>
+                <div
+                    class="
+                        col-lg-3
+                        d-flex
+                        flex-column
+                        justify-content-center
+                        align-items-start
+                        qq-ht-1
+                    "
+                >
+                    <h1 class="text-uppercase">Lorem ipsum dolor sit amet</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi.
+                    </p>
+                    <a class="btn ms-0 ps-0 border-0 text-primary fw-bold"
+                        >> Lorem Ipsum</a
+                    >
+                </div>
+                <div class="d-none d-lg-inline col-1"></div>
+                <div class="d-none d-lg-inline col-1 bg-light"></div>
+                <div
+                    class="
+                        col-lg-5
+                        bg-light
+                        d-flex
+                        flex-column
+                        justify-content-center
+                        qq-ht-1
+                    "
+                >
+                    <div class="row">
+                        <div
+                            class="
+                                col-6 col-lg-3
+                                d-flex
+                                flex-column
+                                justify-content-center
+                                align-items-center
+                            "
+                        >
+                            <div
+                                class="
+                                    qq-icon qq-breathe
+                                    border
+                                    rounded-circle
+                                    d-flex
+                                    flex-column
+                                    justify-content-center
+                                    align-items-center
+                                "
+                            >
+                                <img
+                                    class="col-7"
+                                    src="./assets/home-expertise.svg"
+                                />
+                            </div>
+                            <p class="text-uppercase fw-bold">Lorem</p>
+                        </div>
+                        <div
+                            class="
+                                col-6 col-lg-3
+                                d-flex
+                                flex-column
+                                justify-content-center
+                                align-items-center
+                            "
+                        >
+                            <div
+                                class="
+                                    qq-icon qq-breathe
+                                    border
+                                    rounded-circle
+                                    d-flex
+                                    flex-column
+                                    justify-content-center
+                                    align-items-center
+                                "
+                            >
+                                <img
+                                    class="col-7"
+                                    src="./assets/home-hygiene.svg"
+                                />
+                            </div>
+                            <p class="text-uppercase fw-bold">Lorem ipsum</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div
+                            class="
+                                col-6 col-lg-3
+                                d-flex
+                                flex-column
+                                justify-content-center
+                                align-items-center
+                            "
+                        >
+                            <div
+                                class="
+                                    qq-icon qq-breathe
+                                    border
+                                    rounded-circle
+                                    d-flex
+                                    flex-column
+                                    justify-content-center
+                                    align-items-center
+                                "
+                            >
+                                <img
+                                    class="col-7"
+                                    src="./assets/home-lab.svg"
+                                />
+                            </div>
+                            <p class="text-uppercase fw-bold">Lorem ipsum</p>
+                        </div>
+                        <div
+                            class="
+                                col-6 col-lg-3
+                                d-flex
+                                flex-column
+                                justify-content-center
+                                align-items-center
+                            "
+                        >
+                            <div
+                                class="
+                                    qq-icon qq-breathe
+                                    border
+                                    rounded-circle
+                                    d-flex
+                                    flex-column
+                                    justify-content-center
+                                    align-items-center
+                                "
+                            >
+                                <img
+                                    class="col-7"
+                                    src="./assets/home-retention.svg"
+                                />
+                            </div>
+                            <p class="text-uppercase fw-bold">Lorem</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- happy kid -->
+            <div
+                class="row qq-bg-cover qq-ht-1"
+                style="
+                    background-image: url('./assets/banner-2.jpg');
+                    position: relative;
+                    background-position: -200px;
+                "
+            >
+                <div
+                    class="d-lg-none qq-slip-in"
+                    style="background-color: rgba(0, 0, 0, 0.15)"
+                ></div>
+                <div class="d-none d-lg-inline col-7"></div>
+                <div
+                    class="
+                        col-lg-3
+                        d-flex
+                        flex-column
+                        justify-content-center
+                        align-items-start
+                        qq-text-xs-white
+                    "
+                    style="z-index: 1"
+                >
+                    <h1 class="text-uppercase qq-text-lg-primary">
+                        Lorem Ipsum
+                    </h1>
+                    <p class="qq-text-lg-black">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam.
+                    </p>
+                    <button
+                        type="button"
+                        class="btn btn-secondary text-uppercase text-white"
+                        style="z-index: 1"
+                    >
+                        button button
+                    </button>
+                </div>
+            </div>
+            <!-- carousel -->
+            <div class="row">
+                <div class="col-lg-6 d-flex qq-ht-1" style="position: relative">
+                    <div class="d-lg-none qq-slip-in bg-light"></div>
+                    <div class="d-none d-lg-inline col-lg-4"></div>
+                    <div
+                        class="
+                            col-lg-6
+                            d-flex
+                            flex-column
+                            justify-content-center
+                            align-items-center
+                        "
+                        style="z-index: 1"
+                    >
+                        <h1 class="text-uppercase text-center">
+                            Lorem ipsum dolor sit amet
+                        </h1>
+                        <div class="text-secondary">
+                            <i
+                                class="bi bi-star-fill"
+                                style="font-size: 1.5rem"
+                            ></i>
+                            <i
+                                class="bi bi-star-fill"
+                                style="font-size: 1.5rem"
+                            ></i>
+                            <i
+                                class="bi bi-star-fill"
+                                style="font-size: 1.5rem"
+                            ></i>
+                            <i
+                                class="bi bi-star-fill"
+                                style="font-size: 1.5rem"
+                            ></i>
+                            <i
+                                class="bi bi-star-fill"
+                                style="font-size: 1.5rem"
+                            ></i>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="
+                        col-lg-5
+                        d-flex
+                        flex-column
+                        justify-content-center
+                        qq-ht-1
+                    "
+                >
+                    <div
+                        id="carousel"
+                        class="carousel carousel-dark slide"
+                        data-bs-ride="carousel"
+                    >
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div
+                                    class="
+                                        col-12
+                                        d-flex
+                                        flex-column
+                                        align-items-center
+                                    "
+                                >
+                                    <div class="col-6">
+                                        <h5 class="text-primary">
+                                            John Doe 08/08/2019
+                                        </h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit, sed do
+                                            eiusmod tempor incididunt ut labore
+                                            et dolore magna aliqua. Ut enim ad
+                                            minim veniam,
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div
+                                    class="
+                                        col-12
+                                        d-flex
+                                        flex-column
+                                        align-items-center
+                                    "
+                                >
+                                    <div class="col-6">
+                                        <h5 class="text-primary">
+                                            Don Joe 09/09/2018
+                                        </h5>
+                                        <p>
+                                            quis nostrud exercitation ullamco
+                                            laboris nisi ut aliquip ex ea
+                                            commodo consequat. Duis aute irure
+                                            dolor in reprehenderit in voluptate
+                                            velit esse
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div
+                                    class="
+                                        col-12
+                                        d-flex
+                                        flex-column
+                                        align-items-center
+                                    "
+                                >
+                                    <div class="col-6">
+                                        <h5 class="text-primary">
+                                            Joe Nod 09/09/1820
+                                        </h5>
+                                        <p>
+                                            cillum dolore eu fugiat nulla
+                                            pariatur. Excepteur sint occaecat
+                                            cupidatat non proident, sunt in
+                                            culpa qui officia deserunt mollit
+                                            anim id est laborum.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button
+                            class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#carousel"
+                            data-bs-slide="prev"
+                        >
+                            <span
+                                class="carousel-control-prev-icon"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                            class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#carousel"
+                            data-bs-slide="next"
+                        >
+                            <span
+                                class="carousel-control-next-icon"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        <div
+                            id="carousel-indicators"
+                            class="carousel-indicators mb-0"
+                        >
+                            <button
+                                type="button"
+                                data-bs-target="#carousel"
+                                data-bs-slide-to="0"
+                                class="active"
+                                aria-current="true"
+                                aria-label="Slide 1"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#carousel"
+                                data-bs-slide-to="1"
+                                aria-label="Slide 2"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#carousel"
+                                data-bs-slide-to="2"
+                                aria-label="Slide 3"
+                            ></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer -->
+            <footer class="row bg-light">
+                <div class="fw-bold text-center pt-3 pb-3">Follow Us:</div>
+                <div class="d-flex justify-content-center pb-3">
+                    <div class="row col-9 col-lg-2">
+                        <div class="col-2"></div>
+                        <img
+                            class="col-4 qq-filter"
+                            src="./assets/instagram.svg"
+                        />
+                        <img
+                            class="col-4 qq-filter"
+                            src="./assets/facebook.svg"
+                        />
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script type="text/javascript" src="bundle.js"></script>
+    </body>
 </html>
