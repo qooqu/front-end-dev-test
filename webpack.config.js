@@ -8,7 +8,6 @@ module.exports = {
         path: path.resolve(__dirname, "dist"),
         filename: "bundle.js",
     },
-    watch: true,
     devServer: {
         inline: true,
         host: "0.0.0.0",
